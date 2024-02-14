@@ -84,11 +84,13 @@ html,body{
 #rbottom{
     width: 100%;
     height: 50%;
-    /* background-color: rgb(116, 7, 241); */
+    background-color: rgb(116, 7, 241);
     display: flex;
     background-image: url(https://images.unsplash.com/photo-1508873787497-1b513a18217a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
     background-size: cover;
-    background-position: center;
+    background-position-x: center;
+    background-position-y:50vh ;
+    
 }
 #rtopleft{
     width: 55%;
